@@ -1,0 +1,21 @@
+#container {
+  border: 2px black solid;
+  display: grid;
+  width: 800px;
+  height: 800px;
+  grid-template-columns: repeat(15, auto);
+}
+
+.sketch {
+  background-color: blue;
+  border: 0.5px black solid;
+  display: flex;
+  align-items: center;
+}
+
+#outside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 0;
+}
